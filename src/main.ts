@@ -10,6 +10,7 @@ import 'element-plus/dist/index.css'
 import 'element-plus/theme-chalk/dark/css-vars.css'
 import 'element-plus/theme-chalk/display.css'
 import 'uno.css'
+import './assets/styles/main.css'
 
 const app = createApp(App)
 const router = createRouter({
