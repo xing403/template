@@ -10,24 +10,32 @@
     "test": "vitest",
     "test-ui": "vitest --ui",
     "up": "taze major -I",
-    "postinstall": "npx simple-git-hooks"
+    "postinstall": "npx simple-git-hooks",
+    "commit": "czg"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-git"
+    }
   },
   "dependencies": {
-    "@vueuse/core": "^10.10.1",
+    "@vueuse/core": "^10.11.0",
     "element-plus": "^2.7.5",
-    "vue": "^3.4.27",
+    "vue": "^3.4.29",
     "vue-router": "^4.3.3"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.39.8",
-    "@iconify-json/carbon": "^1.1.35",
-    "@types/node": "^20.14.2",
+    "@iconify-json/carbon": "^1.1.36",
+    "@types/node": "^20.14.6",
     "@unocss/eslint-config": "^0.53.6",
     "@unocss/reset": "^0.61.0",
     "@vitejs/plugin-vue": "^4.6.2",
     "@vitest/ui": "^0.34.7",
     "@vue-macros/volar": "^0.10.2",
     "@vue/test-utils": "^2.4.6",
+    "cz-git": "^1.9.3",
+    "czg": "^1.9.3",
     "eslint": "^8.57.0",
     "jsdom": "^22.1.0",
     "lint-staged": "^13.3.0",
