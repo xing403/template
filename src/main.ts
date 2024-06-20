@@ -1,23 +1,16 @@
 import { createApp } from 'vue'
-import { createRouter, createWebHistory } from 'vue-router'
 
-import ElementPlus from 'element-plus'
-import routes from 'virtual:generated-pages'
+import router from './router'
 import App from './App.vue'
+import theme from './theme'
 
 import '@unocss/reset/tailwind.css'
-import 'element-plus/dist/index.css'
-import 'element-plus/theme-chalk/dark/css-vars.css'
-import 'element-plus/theme-chalk/display.css'
 import 'uno.css'
 import './assets/styles/main.css'
 
 const app = createApp(App)
-const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
-  routes,
-})
 
-app.use(ElementPlus)
+theme(app)
+
 app.use(router)
 app.mount('#app')

@@ -1,4 +1,5 @@
 {
+  "name": "vue-vite",
   "private": true,
   "packageManager": "pnpm@8.6.0",
   "scripts": {
