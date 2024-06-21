@@ -1,13 +1,5 @@
-# vue-vite
-一个vue3 vite 模板
+# Vue-electron
+一个vue3 electron 模板
 
 ## Features
-
-- [Vue 3](https://github.com/vuejs/core)
-- [Vite 3](https://github.com/vitejs/vite)
-
-- 🗂 [File-based routing](./src/pages)
-
-- 📦 [Components auto-importing](./src/components)
-
-- 🎨 [UnoCSS](https://unocss.dev/)
+项目在 vue-vite 基础上加入electron 实现桌面应用开发
