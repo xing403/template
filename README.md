@@ -32,3 +32,21 @@ the template is extends from vite-vue template
 
 * electron: electron
 * electron-builder: electron builder
+
+# Usage
+Use `git clone` command to clone the template under the specified branch by selecting the specified branch
+
+```bash
+# template clone
+git clone -b <branch_name> https://github.com/xing403/template.git
+```
+
+## Example
+```bash
+# vite-react
+git clone -b vite-react https://github.com/xing403/template.git
+# vite-vue
+git clone -b vite-vue https://github.com/xing403/template.git
+# vite-vue-electron
+git clone -b vite-vue-electron https://github.com/xing403/template.git
+```
